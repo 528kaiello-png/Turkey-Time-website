@@ -58,4 +58,33 @@ html, body {
 .head{
 height: 19%;
 width: 19%;
+top: 15%;
+left: 50%;
+background: var(--brown2);
+transform: translate(-50%);
+border-radius: 50%;
+clip-path: polygon(0% 20%, 100% 20%, 100% 500%, 0% 500%);
+}
+.head::before {
+content: "";
+display: block;
+position: absoloute;
+background: var(--brown2);
+height: 120%;
+width: 40%;
+background: var(--brown2);
+top: 80%;
+left: 50%;
+transform: translate(-50%);
+border-radius: 0 0 100% 100% / 30%;
+}
+
+.eye{
+width: 10%
+height: 10%
+background: black;
+border-radius: 50%;
+top: 20%;
+left: 50%;
+transform: translate
 }
