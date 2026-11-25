@@ -12,6 +12,12 @@
          --brown2: #975;
          --orange1: orange;
          --orange2: darkorange;
+         --gold1: #E9AF10;
+         --skin1: #FED38C;
+         --green1: #B8BE19;
+         --red1: #A44138; 
+         --black1: #41525C;
+
          width: 80vmin;
          height: 80vmin;
          position: absolute;
